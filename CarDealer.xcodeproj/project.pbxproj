@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06C977AE2794D7CC00D50B35 /* CarDealerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C977AD2794D7CC00D50B35 /* CarDealerApp.swift */; };
-		06C977B02794D7CC00D50B35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C977AF2794D7CC00D50B35 /* ContentView.swift */; };
+		06C977B02794D7CC00D50B35 /* CarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C977AF2794D7CC00D50B35 /* CarList.swift */; };
 		06C977B22794D7CC00D50B35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C977B12794D7CC00D50B35 /* Assets.xcassets */; };
 		06C977B52794D7CC00D50B35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C977B42794D7CC00D50B35 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		06C977AA2794D7CC00D50B35 /* CarDealer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarDealer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C977AD2794D7CC00D50B35 /* CarDealerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDealerApp.swift; sourceTree = "<group>"; };
-		06C977AF2794D7CC00D50B35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		06C977AF2794D7CC00D50B35 /* CarList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarList.swift; sourceTree = "<group>"; };
 		06C977B12794D7CC00D50B35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06C977B42794D7CC00D50B35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +32,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06A062642794E444007EBDC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				06C977AF2794D7CC00D50B35 /* CarList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		06C977A12794D7CC00D50B35 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +59,8 @@
 		06C977AC2794D7CC00D50B35 /* CarDealer */ = {
 			isa = PBXGroup;
 			children = (
+				06A062642794E444007EBDC0 /* Views */,
 				06C977AD2794D7CC00D50B35 /* CarDealerApp.swift */,
-				06C977AF2794D7CC00D50B35 /* ContentView.swift */,
 				06C977B12794D7CC00D50B35 /* Assets.xcassets */,
 				06C977B32794D7CC00D50B35 /* Preview Content */,
 			);
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06C977B02794D7CC00D50B35 /* ContentView.swift in Sources */,
+				06C977B02794D7CC00D50B35 /* CarList.swift in Sources */,
 				06C977AE2794D7CC00D50B35 /* CarDealerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
