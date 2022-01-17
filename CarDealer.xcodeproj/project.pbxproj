@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06A062662794EC17007EBDC0 /* CarRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A062652794EC17007EBDC0 /* CarRow.swift */; };
 		06C977AE2794D7CC00D50B35 /* CarDealerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C977AD2794D7CC00D50B35 /* CarDealerApp.swift */; };
 		06C977B02794D7CC00D50B35 /* CarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C977AF2794D7CC00D50B35 /* CarList.swift */; };
 		06C977B22794D7CC00D50B35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C977B12794D7CC00D50B35 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06A062652794EC17007EBDC0 /* CarRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRow.swift; sourceTree = "<group>"; };
 		06C977AA2794D7CC00D50B35 /* CarDealer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarDealer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C977AD2794D7CC00D50B35 /* CarDealerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDealerApp.swift; sourceTree = "<group>"; };
 		06C977AF2794D7CC00D50B35 /* CarList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarList.swift; sourceTree = "<group>"; };
@@ -36,6 +38,7 @@
 			isa = PBXGroup;
 			children = (
 				06C977AF2794D7CC00D50B35 /* CarList.swift */,
+				06A062652794EC17007EBDC0 /* CarRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A062662794EC17007EBDC0 /* CarRow.swift in Sources */,
 				06C977B02794D7CC00D50B35 /* CarList.swift in Sources */,
 				06C977AE2794D7CC00D50B35 /* CarDealerApp.swift in Sources */,
 			);
