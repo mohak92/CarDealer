@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06A062662794EC17007EBDC0 /* CarRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A062652794EC17007EBDC0 /* CarRow.swift */; };
+		06A0626B2795AEC1007EBDC0 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A0626A2795AEC1007EBDC0 /* Car.swift */; };
 		06C977AE2794D7CC00D50B35 /* CarDealerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C977AD2794D7CC00D50B35 /* CarDealerApp.swift */; };
 		06C977B02794D7CC00D50B35 /* CarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C977AF2794D7CC00D50B35 /* CarList.swift */; };
 		06C977B22794D7CC00D50B35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C977B12794D7CC00D50B35 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		06A062652794EC17007EBDC0 /* CarRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRow.swift; sourceTree = "<group>"; };
+		06A0626A2795AEC1007EBDC0 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		06C977AA2794D7CC00D50B35 /* CarDealer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarDealer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C977AD2794D7CC00D50B35 /* CarDealerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDealerApp.swift; sourceTree = "<group>"; };
 		06C977AF2794D7CC00D50B35 /* CarList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarList.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		06A062672795AE8A007EBDC0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				06A0626A2795AEC1007EBDC0 /* Car.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		06C977A12794D7CC00D50B35 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 		06C977AC2794D7CC00D50B35 /* CarDealer */ = {
 			isa = PBXGroup;
 			children = (
+				06A062672795AE8A007EBDC0 /* Models */,
 				06A062642794E444007EBDC0 /* Views */,
 				06C977AD2794D7CC00D50B35 /* CarDealerApp.swift */,
 				06C977B12794D7CC00D50B35 /* Assets.xcassets */,
@@ -149,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06A062662794EC17007EBDC0 /* CarRow.swift in Sources */,
+				06A0626B2795AEC1007EBDC0 /* Car.swift in Sources */,
 				06C977B02794D7CC00D50B35 /* CarList.swift in Sources */,
 				06C977AE2794D7CC00D50B35 /* CarDealerApp.swift in Sources */,
 			);
